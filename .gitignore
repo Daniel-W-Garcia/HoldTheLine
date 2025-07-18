@@ -1,0 +1,79 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Ll]ogs/
+
+# User-specific files
+UserSettings/
+Library/PackageCache/
+
+
+# Mono auto-generated files
+*.pidb
+*.booproj
+*.svd
+*.exe
+*.dll
+*.pdb
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Crashlytics generated files (if used)
+crashlytics-build.properties
+
+# Asset meta data should be committed
+!/[Aa]ssets/**/*.meta
+
+# Avoid committing local build or cache files
+*.unityproj
+*.userprefs
+
+# Visual Studio / Rider / vscode project files
+.vscode/
+.vs/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userosscache
+*.booproj
+
+Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/libburst-llvm-18.dylib
+Library/PackageCache/com.unity.burst@59eb6f11d242/.Runtime/libburst-llvm-19.dylib
+Library/ArtifactDB
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# ignore all scenes
+*.unity
+# except ours
+!Assets/Scenes/MyStuff/**/*.unity
+# ignore every prefab
+*.prefab
+
+# except those in MyStuff
+!Assets/MyStuff/**/*.prefab
+
+#Third party assets
+Assets/ThirdParty/
+Assets/AssetInventory/
